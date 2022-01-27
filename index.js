@@ -10,8 +10,8 @@ let darkMode = localStorage.getItem('darkMode');
 const darkModeToggle = document.getElementById('dark');
 
 const enableDarkMode = () => {
-  document.querySelector('body').classList.remove('theme-light');
-  document.querySelector('body').classList.add('theme-dark');
+  document.querySelector('body').classList.remove('theme-dark');
+  document.querySelector('body').classList.add('theme-light');
 
   // Set localstorage to darkMode enabled
   localStorage.setItem('darkMode', 'enabled');
