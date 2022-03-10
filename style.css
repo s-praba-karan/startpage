@@ -63,7 +63,7 @@ section.box-2,
 section.box-3 {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   min-width: 24rem;
   padding: 1rem 1rem;
   background: var(--secondary-color);
